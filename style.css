@@ -178,3 +178,20 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 
 /* Mantém a legenda do hero à frente da foto */
 .portrait-frame .quality-note{z-index:5!important}
+
+
+/* Correções pontuais de layout */
+.portrait-frame .quality-note{
+  z-index:10!important;
+  overflow:visible!important;
+}
+.abyss-featured{
+  display:block!important;
+}
+.abyss-featured>div{
+  width:100%!important;
+  min-width:0!important;
+}
+.stack-grid>div{
+  transform:none!important;
+}

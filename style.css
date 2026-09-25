@@ -161,3 +161,15 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
  .portrait-photo img{object-position:center 25%!important}
  .abyss-featured .abyss-real img{object-fit:cover!important}
 }
+
+/* Enquadramento definitivo das imagens */
+.portrait-frame{overflow:visible}
+.portrait-photo{position:relative!important}
+.portrait-photo img{visibility:visible!important;opacity:1!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover!important;object-position:50% 30%!important;z-index:2!important}
+.abyss-featured .abyss-real{height:auto!important;min-height:0!important;aspect-ratio:16/9!important}
+.abyss-featured .abyss-real img{position:static!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center center!important;background:#111!important}
+@media(max-width:800px){
+ .portrait-photo img{object-position:50% 26%!important}
+ .abyss-featured .abyss-real{height:auto!important;min-height:0!important;aspect-ratio:16/9!important}
+ .abyss-featured .abyss-real img{object-fit:contain!important}
+}

@@ -9,3 +9,11 @@ html,body{max-width:100%;overflow-x:hidden}h1,h2,h3,p,a,span{overflow-wrap:break
 
 /* Ajuste de espaçamento da seção de experiência */
 #experiencia{padding-bottom:0}#experiencia .timeline{margin-bottom:0}#experiencia+.section{padding-top:70px}
+
+/* Correção definitiva do espaço entre Experiência e Projetos */
+#experiencia{padding-bottom:0!important}
+#experiencia .timeline{margin-bottom:0!important}
+#experiencia .timeline article:last-child{margin-bottom:0!important}
+#projetos{margin-top:0!important;padding-top:85px!important}
+@media(max-width:800px){#projetos{padding-top:48px!important}}
+@media(max-width:480px){#projetos{padding-top:40px!important}}

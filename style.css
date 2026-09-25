@@ -180,3 +180,9 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 .portrait-frame>.hero-photo{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:100%!important;max-width:100%!important;opacity:1!important;visibility:visible!important;object-fit:cover!important;object-position:center 28%!important;border-radius:34px!important;z-index:1!important}
 .portrait-frame>.quality-note{z-index:3!important}
 @media(max-width:800px){.portrait-frame>.hero-photo{object-position:center 25%!important}}
+
+
+/* Mantém a legenda do hero à frente da foto */
+.portrait-frame .quality-note{
+  z-index:5!important;
+}

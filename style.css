@@ -55,3 +55,28 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 
 /* QA decorativo: fonte legível para evitar que o Q pareça um 2 */
 .qa .two>div:first-child:after{font-family:"DM Sans",sans-serif!important;font-style:normal!important;font-weight:700!important;letter-spacing:-.08em!important}
+
+/* Refinamento da assinatura visual */
+#sobre .two>h2:after{content:none!important}
+.personal-intro:before{content:none!important}
+
+/* Monograma Y.C. ao fundo, usado com moderação */
+#sobre,#projetos,#stack{position:relative;isolation:isolate;overflow:hidden}
+#sobre:after,#projetos:after,#stack:after{content:"Y.C.";position:absolute;z-index:-1;pointer-events:none;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:600;letter-spacing:-.08em;color:rgba(133,104,168,.055);line-height:1}
+#sobre:after{font-size:clamp(130px,20vw,300px);right:-2vw;top:18%}
+#projetos:after{font-size:clamp(120px,18vw,260px);left:-2vw;top:44%}
+#stack:after{font-size:clamp(115px,17vw,240px);right:2vw;bottom:5%}
+
+/* QA decorativo com aparência editorial/caligrafada e Q legível */
+.qa .two>div:first-child:after{content:"QA"!important;font-family:"Playfair Display",Georgia,serif!important;font-style:italic!important;font-weight:600!important;letter-spacing:-.06em!important;font-size:76px!important;color:rgba(185,155,217,.19)!important;line-height:.8!important;text-shadow:.35px .35px 0 rgba(185,155,217,.3)}
+.qa:after{content:"QA"!important;font-family:"Playfair Display",Georgia,serif!important;font-style:italic!important;font-weight:600!important;letter-spacing:-.08em!important;color:rgba(255,255,255,.035)!important}
+
+/* reforça a leitura do Q sem perder o efeito delicado */
+.qa .two>div:first-child:after,.qa:after{-webkit-text-stroke:.25px currentColor}
+
+@media(max-width:800px){
+ #sobre:after{font-size:145px;right:-38px;top:24%}
+ #projetos:after{font-size:135px;left:-30px;top:48%}
+ #stack:after{font-size:130px;right:-25px;bottom:8%}
+ .qa .two>div:first-child:after{font-size:68px!important;letter-spacing:-.04em!important}
+}

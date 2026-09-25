@@ -80,3 +80,14 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
  #stack:after{font-size:130px;right:-25px;bottom:8%}
  .qa .two>div:first-child:after{font-size:68px!important;letter-spacing:-.04em!important}
 }
+
+/* Y.C. como assinatura visual recorrente */
+.hero,#sobre,#experiencia,#projetos,.qa,#stack,.contact{position:relative;isolation:isolate}
+#experiencia:after,.contact .contact-details:after{content:"Y.C.";position:absolute;pointer-events:none;z-index:-1;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:600;letter-spacing:-.09em;line-height:1;color:rgba(133,104,168,.05)}
+#experiencia:after{font-size:clamp(120px,18vw,260px);right:3vw;top:30%}
+.contact .contact-details{position:relative}
+.contact .contact-details:after{font-size:clamp(90px,13vw,180px);right:-2vw;bottom:-55px;color:rgba(133,104,168,.09)}
+/* QA: nova tipografia, distinta da Playfair usada anteriormente */
+.qa .two>div:first-child:after{font-family:"DM Sans",Arial,sans-serif!important;font-style:italic!important;font-weight:400!important;letter-spacing:-.12em!important;font-size:78px!important;color:rgba(185,155,217,.2)!important;-webkit-text-stroke:1px rgba(185,155,217,.42)!important;text-shadow:none!important}
+.qa:after{font-family:"DM Sans",Arial,sans-serif!important;font-style:italic!important;font-weight:300!important;letter-spacing:-.12em!important;-webkit-text-stroke:1px rgba(255,255,255,.09)!important;color:transparent!important;text-shadow:none!important}
+@media(max-width:800px){#experiencia:after{font-size:140px;right:-28px;top:38%}.contact .contact-details:after{font-size:105px;right:-20px;bottom:-45px}.qa .two>div:first-child:after{font-size:70px!important}}

@@ -173,3 +173,10 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
  .abyss-featured .abyss-real{height:auto!important;min-height:0!important;aspect-ratio:16/9!important}
  .abyss-featured .abyss-real img{object-fit:contain!important}
 }
+
+
+/* Foto do hero: estrutura simplificada */
+.portrait-frame{display:block!important;position:relative!important;overflow:hidden!important;padding:0!important;background:#d8cce2!important}
+.portrait-frame>.hero-photo{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:100%!important;max-width:100%!important;opacity:1!important;visibility:visible!important;object-fit:cover!important;object-position:center 28%!important;border-radius:34px!important;z-index:1!important}
+.portrait-frame>.quality-note{z-index:3!important}
+@media(max-width:800px){.portrait-frame>.hero-photo{object-position:center 25%!important}}

@@ -50,3 +50,5 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 .contact:before{content:"Yasmin.";position:absolute;right:7vw;top:32px;font:italic clamp(42px,8vw,100px) "Playfair Display",serif;color:rgba(133,104,168,.14);pointer-events:none}
 .footer-sign{display:flex;align-items:center;gap:10px}.footer-sign .yc{width:34px;height:34px;border:1px solid var(--accent);display:grid;place-items:center;font:italic 14px "Playfair Display",serif;color:var(--accent)}.footer-name{font-size:12px;font-family:"DM Sans",sans-serif;letter-spacing:.04em}
 @media(max-width:800px){.hero-note{flex-direction:column;gap:6px}.hero-note span:not(:last-child):after{display:none}.hero-signature{flex-wrap:wrap}.signature-line{width:26px}.stack-grid div{transform:none!important}.featured{box-shadow:7px 7px 0 rgba(133,104,168,.16)}.featured:before{display:none}.personal-intro:before{font-size:40px}.contact:before{right:5vw;top:25px}}
+
+.whatsapp-icon{display:inline-flex;width:17px;height:17px;margin-left:8px;vertical-align:middle;align-items:center;justify-content:center}.whatsapp-icon svg{display:block;width:100%;height:100%}

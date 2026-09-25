@@ -91,3 +91,11 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 .qa .two>div:first-child:after{font-family:"DM Sans",Arial,sans-serif!important;font-style:italic!important;font-weight:400!important;letter-spacing:-.12em!important;font-size:78px!important;color:rgba(185,155,217,.2)!important;-webkit-text-stroke:1px rgba(185,155,217,.42)!important;text-shadow:none!important}
 .qa:after{font-family:"DM Sans",Arial,sans-serif!important;font-style:italic!important;font-weight:300!important;letter-spacing:-.12em!important;-webkit-text-stroke:1px rgba(255,255,255,.09)!important;color:transparent!important;text-shadow:none!important}
 @media(max-width:800px){#experiencia:after{font-size:140px;right:-28px;top:38%}.contact .contact-details:after{font-size:105px;right:-20px;bottom:-45px}.qa .two>div:first-child:after{font-size:70px!important}}
+
+/* Correção final: sem numeração no Sobre */
+#sobre .two>h2:after,#sobre h2:after,#sobre [data-number]:after{content:none!important;display:none!important}
+
+/* Substitui definitivamente QA decorativo por monograma Y.C. */
+.qa .two>div:first-child:after{content:"Y.C."!important;font-family:"Playfair Display",Georgia,serif!important;font-style:italic!important;font-weight:600!important;letter-spacing:-.09em!important;font-size:82px!important;color:rgba(185,155,217,.16)!important;-webkit-text-stroke:.35px rgba(185,155,217,.35)!important;text-shadow:1px 1px 0 rgba(185,155,217,.08)!important}
+.qa:after{content:"Y.C."!important;font-family:"Playfair Display",Georgia,serif!important;font-style:italic!important;font-weight:600!important;letter-spacing:-.1em!important;color:rgba(255,255,255,.025)!important;-webkit-text-stroke:.45px rgba(185,155,217,.07)!important;text-shadow:none!important}
+@media(max-width:800px){.qa .two>div:first-child:after{font-size:72px!important}}

@@ -124,3 +124,8 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 /* correção visual: Abyss usa a tela inicial real do repositório */
 .abyss-shot{padding:0!important;background:#080b09!important;display:block!important}
 .abyss-shot img{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
+
+/* Foto real de Yasmin */
+.portrait-photo{padding:0!important;overflow:hidden;background:#cbb9da!important}
+.portrait-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 28%;border-radius:27px}
+@media(max-width:800px){.portrait-photo img{object-position:center 25%}}

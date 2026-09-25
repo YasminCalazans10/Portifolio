@@ -52,3 +52,6 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 @media(max-width:800px){.hero-note{flex-direction:column;gap:6px}.hero-note span:not(:last-child):after{display:none}.hero-signature{flex-wrap:wrap}.signature-line{width:26px}.stack-grid div{transform:none!important}.featured{box-shadow:7px 7px 0 rgba(133,104,168,.16)}.featured:before{display:none}.personal-intro:before{font-size:40px}.contact:before{right:5vw;top:25px}}
 
 .whatsapp-icon{display:inline-flex;width:17px;height:17px;margin-left:8px;vertical-align:middle;align-items:center;justify-content:center}.whatsapp-icon svg{display:block;width:100%;height:100%}
+
+/* QA decorativo: fonte legível para evitar que o Q pareça um 2 */
+.qa .two>div:first-child:after{font-family:"DM Sans",sans-serif!important;font-style:normal!important;font-weight:700!important;letter-spacing:-.08em!important}

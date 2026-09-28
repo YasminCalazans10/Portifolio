@@ -254,3 +254,9 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
     padding:35px!important;
   }
 }
+
+
+/* Ajustes 28/09/2026: contatos sem duplicação e recorte do Abyss Armada */
+.abyss-featured .abyss-real{overflow:hidden!important;}
+.abyss-featured .abyss-real img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:50% 50%!important;transform:scale(1.08);transform-origin:center!important;}
+@media(max-width:800px){.abyss-featured .abyss-real img{object-fit:cover!important;object-position:50% 50%!important;transform:scale(1.08);}}

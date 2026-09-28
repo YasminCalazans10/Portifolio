@@ -266,3 +266,7 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 .portrait-photo img{object-position:50% 34%!important;}
 @media(max-width:800px){.portrait-photo img{object-position:50% 31%!important;}}
 @media(max-width:480px){.portrait-photo img{object-position:50% 29%!important;}}
+
+
+/* Corrige sobreposição do monograma na linha do tempo */
+#experiencia:after{content:none!important;display:none!important;}

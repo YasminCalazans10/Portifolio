@@ -260,3 +260,9 @@ header .brand{font-family:"Playfair Display",serif;font-size:27px;letter-spacing
 .abyss-featured .abyss-real{overflow:hidden!important;}
 .abyss-featured .abyss-real img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:50% 50%!important;transform:scale(1.08);transform-origin:center!important;}
 @media(max-width:800px){.abyss-featured .abyss-real img{object-fit:cover!important;object-position:50% 50%!important;transform:scale(1.08);}}
+
+
+/* Foto atualizada 28/09/2026 — enquadramento responsivo */
+.portrait-photo img{object-position:50% 34%!important;}
+@media(max-width:800px){.portrait-photo img{object-position:50% 31%!important;}}
+@media(max-width:480px){.portrait-photo img{object-position:50% 29%!important;}}
